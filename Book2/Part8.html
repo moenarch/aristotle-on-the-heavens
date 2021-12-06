@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Part 8 - On the Heavens</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../Introduction.html">Introduction</a></li><li class="chapter-item expanded "><a href="../Book1.html"><strong aria-hidden="true">1.</strong> Book 1</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book1/Part1.html"><strong aria-hidden="true">1.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book1/Part2.html"><strong aria-hidden="true">1.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book1/Part3.html"><strong aria-hidden="true">1.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book1/Part4.html"><strong aria-hidden="true">1.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book1/Part5.html"><strong aria-hidden="true">1.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book1/Part6.html"><strong aria-hidden="true">1.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book1/Part7.html"><strong aria-hidden="true">1.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book1/Part8.html"><strong aria-hidden="true">1.8.</strong> Part 8</a></li><li class="chapter-item expanded "><a href="../Book1/Part9.html"><strong aria-hidden="true">1.9.</strong> Part 9</a></li><li class="chapter-item expanded "><a href="../Book1/Part10.html"><strong aria-hidden="true">1.10.</strong> Part 10</a></li><li class="chapter-item expanded "><a href="../Book1/Part11.html"><strong aria-hidden="true">1.11.</strong> Part 11</a></li><li class="chapter-item expanded "><a href="../Book1/Part12.html"><strong aria-hidden="true">1.12.</strong> Part 12</a></li></ol></li><li class="chapter-item expanded "><a href="../Book2.html"><strong aria-hidden="true">2.</strong> Book 2</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book2/Part1.html"><strong aria-hidden="true">2.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book2/Part2.html"><strong aria-hidden="true">2.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book2/Part3.html"><strong aria-hidden="true">2.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book2/Part4.html"><strong aria-hidden="true">2.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book2/Part5.html"><strong aria-hidden="true">2.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book2/Part6.html"><strong aria-hidden="true">2.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book2/Part7.html"><strong aria-hidden="true">2.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book2/Part8.html" class="active"><strong aria-hidden="true">2.8.</strong> Part 8</a></li><li class="chapter-item expanded "><a href="../Book2/Part9.html"><strong aria-hidden="true">2.9.</strong> Part 9</a></li><li class="chapter-item expanded "><a href="../Book2/Part10.html"><strong aria-hidden="true">2.10.</strong> Part 10</a></li><li class="chapter-item expanded "><a href="../Book2/Part11.html"><strong aria-hidden="true">2.11.</strong> Part 11</a></li><li class="chapter-item expanded "><a href="../Book2/Part12.html"><strong aria-hidden="true">2.12.</strong> Part 12</a></li><li class="chapter-item expanded "><a href="../Book2/Part13.html"><strong aria-hidden="true">2.13.</strong> Part 13</a></li><li class="chapter-item expanded "><a href="../Book2/Part14.html"><strong aria-hidden="true">2.14.</strong> Part 14</a></li></ol></li><li class="chapter-item expanded "><a href="../Book3.html"><strong aria-hidden="true">3.</strong> Book 3</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book3/Part1.html"><strong aria-hidden="true">3.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book3/Part2.html"><strong aria-hidden="true">3.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book3/Part3.html"><strong aria-hidden="true">3.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book3/Part4.html"><strong aria-hidden="true">3.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book3/Part5.html"><strong aria-hidden="true">3.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book3/Part6.html"><strong aria-hidden="true">3.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book3/Part7.html"><strong aria-hidden="true">3.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book3/Part8.html"><strong aria-hidden="true">3.8.</strong> Part 8</a></li></ol></li><li class="chapter-item expanded "><a href="../Book4.html"><strong aria-hidden="true">4.</strong> Book 4</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book4/Part1.html"><strong aria-hidden="true">4.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book4/Part2.html"><strong aria-hidden="true">4.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book4/Part3.html"><strong aria-hidden="true">4.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book4/Part4.html"><strong aria-hidden="true">4.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book4/Part5.html"><strong aria-hidden="true">4.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book4/Part6.html"><strong aria-hidden="true">4.6.</strong> Part 6</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">On the Heavens</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="part-8"><a class="header" href="#part-8">Part 8</a></h2>
+<p>Since changes evidently occur not only in the position of the stars but also in that of the whole heaven, there are three possibilities.
+Either (1) both are at rest, or (2) both are in motion, or (3) the one is at rest and the other in motion.</p>
+<p>(1) That both should be at rest is impossible; for, if the earth is at rest, the hypothesis does not account for the observations; and we take it as granted that the earth is at rest.
+It remains either that both are moved, or that the one is moved and the other at rest.</p>
+<p>(2) On the view, first, that both are in motion, we have the absurdity that the stars and the circles move with the same speed, i.e.
+that the ace of every star is that of the circle in it moves.
+For star and circle are seen to come back to the same place at the same moment; from which it follows that the star has traversed the circle and the circle has completed its own movement, i.e.
+traversed its own circumference, at one and the same moment.
+But it is difficult to conceive that the pace of each star should be exactly proportioned to the size of its circle.
+That the pace of each circle should be proportionate to its size is not absurd but inevitable: but that the same should be true of the movement of the stars contained in the circles is quite incredible.
+For if, on the one and, we suppose that the star which moves on the greater circle is necessarily swifter, clearly we also admit that if stars shifted their position so as to exchange circles, the slower would become swifter and the swifter slower.
+But this would show that their movement was not their own, but due to the circles.
+If, on the other hand, the arrangement was a chance combination, the coincidence in every case of a greater circle with a swifter movement of the star contained in it is too much to believe.
+In one or two cases it might not inconceivably fall out so, but to imagine it in every case alike is a mere fiction.
+Besides, chance has no place in that which is natural, and what happens everywhere and in every case is no matter of chance.</p>
+<p>(3) The same absurdity is equally plain if it is supposed that the circles stand still and that it is the stars themselves which move.
+For it will follow that the outer stars are the swifter, and that the pace of the stars corresponds to the size of their circles.</p>
+<p>Since, then, we cannot reasonably suppose either that both are in motion or that the star alone moves, the remaining alternative is that the circles should move, while the stars are at rest and move with the circles to which they are attached.
+Only on this supposition are we involved in no absurd consequence.
+For, in the first place, the quicker movement of the larger circle is natural when all the circles are attached to the same centre.
+Whenever bodies are moving with their proper motion, the larger moves quicker.
+It is the same here with the revolving bodies: for the are intercepted by two radii will be larger in the larger circle, and hence it is not surprising that the revolution of the larger circle should take the same time as that of the smaller.
+And secondly, the fact that the heavens do not break in pieces follows not only from this but also from the proof already given of the continuity of the whole.</p>
+<p>Again, since the stars are spherical, as our opponents assert and we may consistently admit, inasmuch as we construct them out of the spherical body, and since the spherical body has two movements proper to itself, namely rolling and spinning, it follows that if the stars have a movement of their own, it will be one of these.
+But neither is observed.
+(1) Suppose them to spin.
+They would then stay where they were, and not change their place, as, by observation and general consent, they do.
+Further, one would expect them all to exhibit the same movement: but the only star which appears to possess this movement is the sun, at sunrise or sunset, and this appearance is due not to the sun itself but to the distance from which we observe it.
+The visual ray being excessively prolonged becomes weak and wavering.
+The same reason probably accounts for the apparent twinkling of the fixed stars and the absence of twinkling in the planets.
+The planets are near, so that the visual ray reaches them in its full vigour, but when it comes to the fixed stars it is quivering because of the distance and its excessive extension; and its tremor produces an appearance of movement in the star: for it makes no difference whether movement is set up in the ray or in the object of vision.</p>
+<p>(2) On the other hand, it is also clear that the stars do not roll.
+For rolling involves rotation: but the 'face', as it is called, of the moon is always seen.
+Therefore, since any movement of their own which the stars possessed would presumably be one proper to themselves, and no such movement is observed in them, clearly they have no movement of their own.</p>
+<p>There is, further, the absurdity that nature has bestowed upon them no organ appropriate to such movement.
+For nature leaves nothing to chance, and would not, while caring for animals, overlook things so precious.
+Indeed, nature seems deliberately to have stripped them of everything which makes selforiginated progression possible, and to have removed them as far as possible from things which have organs of movement.
+This is just why it seems proper that the whole heaven and every star should be spherical.
+For while of all shapes the sphere is the most convenient for movement in one place, making possible, as it does, the swiftest and most selfcontained motion, for forward movement it is the most unsuitable, least of all resembling shapes which are self-moved, in that it has no dependent or projecting part, as a rectilinear figure has, and is in fact as far as possible removed in shape from ambulatory bodies.
+Since, therefore, the heavens have to move in one lace, and the stars are not required to move themselves forward, it is natural that both should be spherical-a shape which best suits the movement of the one and the immobility of the other.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../Book2/Part7.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../Book2/Part9.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../Book2/Part7.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../Book2/Part9.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Part 10 - On the Heavens</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../Introduction.html">Introduction</a></li><li class="chapter-item expanded "><a href="../Book1.html"><strong aria-hidden="true">1.</strong> Book 1</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book1/Part1.html"><strong aria-hidden="true">1.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book1/Part2.html"><strong aria-hidden="true">1.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book1/Part3.html"><strong aria-hidden="true">1.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book1/Part4.html"><strong aria-hidden="true">1.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book1/Part5.html"><strong aria-hidden="true">1.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book1/Part6.html"><strong aria-hidden="true">1.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book1/Part7.html"><strong aria-hidden="true">1.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book1/Part8.html"><strong aria-hidden="true">1.8.</strong> Part 8</a></li><li class="chapter-item expanded "><a href="../Book1/Part9.html"><strong aria-hidden="true">1.9.</strong> Part 9</a></li><li class="chapter-item expanded "><a href="../Book1/Part10.html" class="active"><strong aria-hidden="true">1.10.</strong> Part 10</a></li><li class="chapter-item expanded "><a href="../Book1/Part11.html"><strong aria-hidden="true">1.11.</strong> Part 11</a></li><li class="chapter-item expanded "><a href="../Book1/Part12.html"><strong aria-hidden="true">1.12.</strong> Part 12</a></li></ol></li><li class="chapter-item expanded "><a href="../Book2.html"><strong aria-hidden="true">2.</strong> Book 2</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book2/Part1.html"><strong aria-hidden="true">2.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book2/Part2.html"><strong aria-hidden="true">2.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book2/Part3.html"><strong aria-hidden="true">2.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book2/Part4.html"><strong aria-hidden="true">2.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book2/Part5.html"><strong aria-hidden="true">2.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book2/Part6.html"><strong aria-hidden="true">2.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book2/Part7.html"><strong aria-hidden="true">2.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book2/Part8.html"><strong aria-hidden="true">2.8.</strong> Part 8</a></li><li class="chapter-item expanded "><a href="../Book2/Part9.html"><strong aria-hidden="true">2.9.</strong> Part 9</a></li><li class="chapter-item expanded "><a href="../Book2/Part10.html"><strong aria-hidden="true">2.10.</strong> Part 10</a></li><li class="chapter-item expanded "><a href="../Book2/Part11.html"><strong aria-hidden="true">2.11.</strong> Part 11</a></li><li class="chapter-item expanded "><a href="../Book2/Part12.html"><strong aria-hidden="true">2.12.</strong> Part 12</a></li><li class="chapter-item expanded "><a href="../Book2/Part13.html"><strong aria-hidden="true">2.13.</strong> Part 13</a></li><li class="chapter-item expanded "><a href="../Book2/Part14.html"><strong aria-hidden="true">2.14.</strong> Part 14</a></li></ol></li><li class="chapter-item expanded "><a href="../Book3.html"><strong aria-hidden="true">3.</strong> Book 3</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book3/Part1.html"><strong aria-hidden="true">3.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book3/Part2.html"><strong aria-hidden="true">3.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book3/Part3.html"><strong aria-hidden="true">3.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book3/Part4.html"><strong aria-hidden="true">3.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book3/Part5.html"><strong aria-hidden="true">3.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book3/Part6.html"><strong aria-hidden="true">3.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book3/Part7.html"><strong aria-hidden="true">3.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book3/Part8.html"><strong aria-hidden="true">3.8.</strong> Part 8</a></li></ol></li><li class="chapter-item expanded "><a href="../Book4.html"><strong aria-hidden="true">4.</strong> Book 4</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book4/Part1.html"><strong aria-hidden="true">4.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book4/Part2.html"><strong aria-hidden="true">4.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book4/Part3.html"><strong aria-hidden="true">4.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book4/Part4.html"><strong aria-hidden="true">4.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book4/Part5.html"><strong aria-hidden="true">4.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book4/Part6.html"><strong aria-hidden="true">4.6.</strong> Part 6</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">On the Heavens</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="part-10"><a class="header" href="#part-10">Part 10</a></h2>
+<p>Having established these distinctions, we may now proceed to the question whether the heaven is ungenerated or generated, indestructible or destructible.
+Let us start with a review of the theories of other thinkers; for the proofs of a theory are difficulties for the contrary theory.
+Besides, those who have first heard the pleas of our adversaries will be more likely to credit the assertions which we are going to make.
+We shall be less open to the charge of procuring judgement by default.
+To give a satisfactory decision as to the truth it is necessary to be rather an arbitrator than a party to the dispute.</p>
+<p>That the world was generated all are agreed, but, generation over, some say that it is eternal, others say that it is destructible like any other natural formation.
+Others again, with Empedliocles of Acragas and Heraclitus of Ephesus, believe that there is alternation in the destructive process, which takes now this direction, now that, and continues without end.</p>
+<p>Now to assert that it was generated and yet is eternal is to assert the impossible; for we cannot reasonably attribute to anything any characteristics but those which observation detects in many or all instances.
+But in this case the facts point the other way: generated things are seen always to be destroyed.
+Further, a thing whose present state had no beginning and which could not have been other than it was at any previous moment throughout its entire duration, cannot possibly be changed.
+For there will have to be some cause of change, and if this had been present earlier it would have made possible another condition of that to which any other condition was impossible.
+Suppose that the world was formed out of elements which were formerly otherwise conditioned than as they are now.
+Then (1) if their condition was always so and could not have been otherwise, the world could never have come into being.
+And (2) if the world did come into being, then, clearly, their condition must have been capable of change and not eternal: after combination therefore they will be dispersed, just as in the past after dispersion they came into combination, and this process either has been, or could have been, indefinitely repeated.
+But if this is so, the world cannot be indestructible, and it does not matter whether the change of condition has actually occurred or remains a possibility.</p>
+<p>Some of those who hold that the world, though indestructible, was yet generated, try to support their case by a parallel which is illusory.
+They say that in their statements about its generation they are doing what geometricians do when they construct their figures, not implying that the universe really had a beginning, but for didactic reasons facilitating understanding by exhibiting the object, like the figure, as in course of formation.
+The two cases, as we said, are not parallel; for, in the construction of the figure, when the various steps are completed the required figure forthwith results; but in these other demonstrations what results is not that which was required.
+Indeed it cannot be so; for antecedent and consequent, as assumed, are in contradiction.
+The ordered, it is said, arose out of the unordered; and the same thing cannot be at the same time both ordered and unordered; there must be a process and a lapse of time separating the two states.
+In the figure, on the other hand, there is no temporal separation.
+It is clear then that the universe cannot be at once eternal and generated.</p>
+<p>To say that the universe alternately combines and dissolves is no more paradoxical than to make it eternal but varying in shape.
+It is as if one were to think that there was now destruction and now existence when from a child a man is generated, and from a man a child.
+For it is clear that when the elements come together the result is not a chance system and combination, but the very same as before-especially on the view of those who hold this theory, since they say that the contrary is the cause of each state.
+So that if the totality of body, which is a continuum, is now in this order or disposition and now in that, and if the combination of the whole is a world or heaven, then it will not be the world that comes into being and is destroyed, but only its dispositions.</p>
+<p>If the world is believed to be one, it is impossible to suppose that it should be, as a whole, first generated and then destroyed, never to reappear; since before it came into being there was always present the combination prior to it, and that, we hold, could never change if it was never generated.
+If, on the other hand, the worlds are infinite in number the view is more plausible.
+But whether this is, or is not, impossible will be clear from what follows.
+For there are some who think it possible both for the ungenerated to be destroyed and for the generated to persist undestroyed.
+(This is held in the Timaeus, where Plato says that the heaven, though it was generated, will none the less exist to eternity.)
+So far as the heaven is concerned we have answered this view with arguments appropriate to the nature of the heaven: on the general question we shall attain clearness when we examine the matter universally.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../Book1/Part9.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../Book1/Part11.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../Book1/Part9.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../Book1/Part11.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>

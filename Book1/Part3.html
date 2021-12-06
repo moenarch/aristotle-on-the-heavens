@@ -1,0 +1,232 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Part 3 - On the Heavens</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../Introduction.html">Introduction</a></li><li class="chapter-item expanded "><a href="../Book1.html"><strong aria-hidden="true">1.</strong> Book 1</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book1/Part1.html"><strong aria-hidden="true">1.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book1/Part2.html"><strong aria-hidden="true">1.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book1/Part3.html" class="active"><strong aria-hidden="true">1.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book1/Part4.html"><strong aria-hidden="true">1.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book1/Part5.html"><strong aria-hidden="true">1.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book1/Part6.html"><strong aria-hidden="true">1.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book1/Part7.html"><strong aria-hidden="true">1.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book1/Part8.html"><strong aria-hidden="true">1.8.</strong> Part 8</a></li><li class="chapter-item expanded "><a href="../Book1/Part9.html"><strong aria-hidden="true">1.9.</strong> Part 9</a></li><li class="chapter-item expanded "><a href="../Book1/Part10.html"><strong aria-hidden="true">1.10.</strong> Part 10</a></li><li class="chapter-item expanded "><a href="../Book1/Part11.html"><strong aria-hidden="true">1.11.</strong> Part 11</a></li><li class="chapter-item expanded "><a href="../Book1/Part12.html"><strong aria-hidden="true">1.12.</strong> Part 12</a></li></ol></li><li class="chapter-item expanded "><a href="../Book2.html"><strong aria-hidden="true">2.</strong> Book 2</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book2/Part1.html"><strong aria-hidden="true">2.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book2/Part2.html"><strong aria-hidden="true">2.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book2/Part3.html"><strong aria-hidden="true">2.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book2/Part4.html"><strong aria-hidden="true">2.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book2/Part5.html"><strong aria-hidden="true">2.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book2/Part6.html"><strong aria-hidden="true">2.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book2/Part7.html"><strong aria-hidden="true">2.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book2/Part8.html"><strong aria-hidden="true">2.8.</strong> Part 8</a></li><li class="chapter-item expanded "><a href="../Book2/Part9.html"><strong aria-hidden="true">2.9.</strong> Part 9</a></li><li class="chapter-item expanded "><a href="../Book2/Part10.html"><strong aria-hidden="true">2.10.</strong> Part 10</a></li><li class="chapter-item expanded "><a href="../Book2/Part11.html"><strong aria-hidden="true">2.11.</strong> Part 11</a></li><li class="chapter-item expanded "><a href="../Book2/Part12.html"><strong aria-hidden="true">2.12.</strong> Part 12</a></li><li class="chapter-item expanded "><a href="../Book2/Part13.html"><strong aria-hidden="true">2.13.</strong> Part 13</a></li><li class="chapter-item expanded "><a href="../Book2/Part14.html"><strong aria-hidden="true">2.14.</strong> Part 14</a></li></ol></li><li class="chapter-item expanded "><a href="../Book3.html"><strong aria-hidden="true">3.</strong> Book 3</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book3/Part1.html"><strong aria-hidden="true">3.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book3/Part2.html"><strong aria-hidden="true">3.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book3/Part3.html"><strong aria-hidden="true">3.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book3/Part4.html"><strong aria-hidden="true">3.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book3/Part5.html"><strong aria-hidden="true">3.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book3/Part6.html"><strong aria-hidden="true">3.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book3/Part7.html"><strong aria-hidden="true">3.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book3/Part8.html"><strong aria-hidden="true">3.8.</strong> Part 8</a></li></ol></li><li class="chapter-item expanded "><a href="../Book4.html"><strong aria-hidden="true">4.</strong> Book 4</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book4/Part1.html"><strong aria-hidden="true">4.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book4/Part2.html"><strong aria-hidden="true">4.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book4/Part3.html"><strong aria-hidden="true">4.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book4/Part4.html"><strong aria-hidden="true">4.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book4/Part5.html"><strong aria-hidden="true">4.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book4/Part6.html"><strong aria-hidden="true">4.6.</strong> Part 6</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">On the Heavens</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="part-3"><a class="header" href="#part-3">Part 3</a></h2>
+<p>In consequence of what has been said, in part by way of assumption and in part by way of proof, it is clear that not every body either possesses lightness or heaviness.
+As a preliminary we must explain in what sense we are using the words 'heavy' and 'light', sufficiently, at least, for our present purpose: we can examine the terms more closely later, when we come to consider their essential nature.
+Let us then apply the term 'heavy' to that which naturally moves towards the centre, and 'light' to that which moves naturally away from the centre.
+The heaviest thing will be that which sinks to the bottom of all things that move downward, and the lightest that which rises to the surface of everything that moves upward.
+Now, necessarily, everything which moves either up or down possesses lightness or heaviness or both-but not both relatively to the same thing: for things are heavy and light relatively to one another; air, for instance, is light relatively to water, and water light relatively to earth.
+The body, then, which moves in a circle cannot possibly possess either heaviness or lightness.
+For neither naturally nor unnaturally can it move either towards or away from the centre.
+Movement in a straight line certainly does not belong to it naturally, since one sort of movement is, as we saw, appropriate to each simple body, and so we should be compelled to identify it with one of the bodies which move in this way.
+Suppose, then, that the movement is unnatural.
+In that case, if it is the downward movement which is unnatural, the upward movement will be natural; and if it is the upward which is unnatural, the downward will be natural.
+For we decided that of contrary movements, if the one is unnatural to anything, the other will be natural to it.
+But since the natural movement of the whole and of its part of earth, for instance, as a whole and of a small clod-have one and the same direction, it results, in the first place, that this body can possess no lightness or heaviness at all (for that would mean that it could move by its own nature either from or towards the centre, which, as we know, is impossible); and, secondly, that it cannot possibly move in the way of locomotion by being forced violently aside in an upward or downward direction.
+For neither naturally nor unnaturally can it move with any other motion but its own, either itself or any part of it, since the reasoning which applies to the whole applies also to the part.</p>
+<p>It is equally reasonable to assume that this body will be ungenerated and indestructible and exempt from increase and alteration, since everything that comes to be comes into being from its contrary and in some substrate, and passes away likewise in a substrate by the action of the contrary into the contrary, as we explained in our opening discussions.
+Now the motions of contraries are contrary.
+If then this body can have no contrary, because there can be no contrary motion to the circular, nature seems justly to have exempted from contraries the body which was to be ungenerated and indestructible.
+For it is in contraries that generation and decay subsist.
+Again, that which is subject to increase increases upon contact with a kindred body, which is resolved into its matter.
+But there is nothing out of which this body can have been generated.
+And if it is exempt from increase and diminution, the same reasoning leads us to suppose that it is also unalterable.
+For alteration is movement in respect of quality; and qualitative states and dispositions, such as health and disease, do not come into being without changes of properties.
+But all natural bodies which change their properties we see to be subject without exception to increase and diminution.
+This is the case, for instance, with the bodies of animals and their parts and with vegetable bodies, and similarly also with those of the elements.
+And so, if the body which moves with a circular motion cannot admit of increase or diminution, it is reasonable to suppose that it is also unalterable.</p>
+<p>The reasons why the primary body is eternal and not subject to increase or diminution, but unaging and unalterable and unmodified, will be clear from what has been said to any one who believes in our assumptions.
+Our theory seems to confirm experience and to be confirmed by it.
+For all men have some conception of the nature of the gods, and all who believe in the existence of gods at all, whether barbarian or Greek, agree in allotting the highest place to the deity, surely because they suppose that immortal is linked with immortal and regard any other supposition as inconceivable.
+If then there is, as there certainly is, anything divine, what we have just said about the primary bodily substance was well said.
+The mere evidence of the senses is enough to convince us of this, at least with human certainty.
+For in the whole range of time past, so far as our inherited records reach, no change appears to have taken place either in the whole scheme of the outermost heaven or in any of its proper parts.
+The common name, too, which has been handed down from our distant ancestors even to our own day, seems to show that they conceived of it in the fashion which we have been expressing.
+The same ideas, one must believe, recur in men's minds not once or twice but again and again.
+And so, implying that the primary body is something else beyond earth, fire, air, and water, they gave the highest place a name of its own, aither, derived from the fact that it 'runs always' for an eternity of time.
+Anaxagoras, however, scandalously misuses this name, taking aither as equivalent to fire.</p>
+<p>It is also clear from what has been said why the number of what we call simple bodies cannot be greater than it is.
+The motion of a simple body must itself be simple, and we assert that there are only these two simple motions, the circular and the straight, the latter being subdivided into motion away from and motion towards the centre.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../Book1/Part2.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../Book1/Part4.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../Book1/Part2.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../Book1/Part4.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>

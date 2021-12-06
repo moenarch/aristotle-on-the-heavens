@@ -1,0 +1,229 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Part 11 - On the Heavens</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../Introduction.html">Introduction</a></li><li class="chapter-item expanded "><a href="../Book1.html"><strong aria-hidden="true">1.</strong> Book 1</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book1/Part1.html"><strong aria-hidden="true">1.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book1/Part2.html"><strong aria-hidden="true">1.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book1/Part3.html"><strong aria-hidden="true">1.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book1/Part4.html"><strong aria-hidden="true">1.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book1/Part5.html"><strong aria-hidden="true">1.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book1/Part6.html"><strong aria-hidden="true">1.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book1/Part7.html"><strong aria-hidden="true">1.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book1/Part8.html"><strong aria-hidden="true">1.8.</strong> Part 8</a></li><li class="chapter-item expanded "><a href="../Book1/Part9.html"><strong aria-hidden="true">1.9.</strong> Part 9</a></li><li class="chapter-item expanded "><a href="../Book1/Part10.html"><strong aria-hidden="true">1.10.</strong> Part 10</a></li><li class="chapter-item expanded "><a href="../Book1/Part11.html" class="active"><strong aria-hidden="true">1.11.</strong> Part 11</a></li><li class="chapter-item expanded "><a href="../Book1/Part12.html"><strong aria-hidden="true">1.12.</strong> Part 12</a></li></ol></li><li class="chapter-item expanded "><a href="../Book2.html"><strong aria-hidden="true">2.</strong> Book 2</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book2/Part1.html"><strong aria-hidden="true">2.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book2/Part2.html"><strong aria-hidden="true">2.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book2/Part3.html"><strong aria-hidden="true">2.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book2/Part4.html"><strong aria-hidden="true">2.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book2/Part5.html"><strong aria-hidden="true">2.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book2/Part6.html"><strong aria-hidden="true">2.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book2/Part7.html"><strong aria-hidden="true">2.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book2/Part8.html"><strong aria-hidden="true">2.8.</strong> Part 8</a></li><li class="chapter-item expanded "><a href="../Book2/Part9.html"><strong aria-hidden="true">2.9.</strong> Part 9</a></li><li class="chapter-item expanded "><a href="../Book2/Part10.html"><strong aria-hidden="true">2.10.</strong> Part 10</a></li><li class="chapter-item expanded "><a href="../Book2/Part11.html"><strong aria-hidden="true">2.11.</strong> Part 11</a></li><li class="chapter-item expanded "><a href="../Book2/Part12.html"><strong aria-hidden="true">2.12.</strong> Part 12</a></li><li class="chapter-item expanded "><a href="../Book2/Part13.html"><strong aria-hidden="true">2.13.</strong> Part 13</a></li><li class="chapter-item expanded "><a href="../Book2/Part14.html"><strong aria-hidden="true">2.14.</strong> Part 14</a></li></ol></li><li class="chapter-item expanded "><a href="../Book3.html"><strong aria-hidden="true">3.</strong> Book 3</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book3/Part1.html"><strong aria-hidden="true">3.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book3/Part2.html"><strong aria-hidden="true">3.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book3/Part3.html"><strong aria-hidden="true">3.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book3/Part4.html"><strong aria-hidden="true">3.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book3/Part5.html"><strong aria-hidden="true">3.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book3/Part6.html"><strong aria-hidden="true">3.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book3/Part7.html"><strong aria-hidden="true">3.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book3/Part8.html"><strong aria-hidden="true">3.8.</strong> Part 8</a></li></ol></li><li class="chapter-item expanded "><a href="../Book4.html"><strong aria-hidden="true">4.</strong> Book 4</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book4/Part1.html"><strong aria-hidden="true">4.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book4/Part2.html"><strong aria-hidden="true">4.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book4/Part3.html"><strong aria-hidden="true">4.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book4/Part4.html"><strong aria-hidden="true">4.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book4/Part5.html"><strong aria-hidden="true">4.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book4/Part6.html"><strong aria-hidden="true">4.6.</strong> Part 6</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">On the Heavens</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="part-11"><a class="header" href="#part-11">Part 11</a></h2>
+<p>We must first distinguish the senses in which we use the words 'ungenerated' and 'generated', 'destructible' and 'indestructible'.
+These have many meanings, and though it may make no difference to the argument, yet some confusion of mind must result from treating as uniform in its use a word which has several distinct applications.
+The character which is the ground of the predication will always remain obscure.</p>
+<p>The word 'ungenerated' then is used (a) in one sense whenever something now is which formerly was not, no process of becoming or change being involved.
+Such is the case, according to some, with contact and motion, since there is no process of coming to be in contact or in motion.
+(b) It is used in another sense, when something which is capable of coming to be, with or without process, does not exist; such a thing is ungenerated in the sense that its generation is not a fact but a possibility.
+(c) It is also applied where there is general impossibility of any generation such that the thing now is which then was not.
+And 'impossibility' has two uses: first, where it is untrue to say that the thing can ever come into being, and secondly, where it cannot do so easily, quickly, or well.
+In the same way the word 'generated' is used, (a) first, where what formerly was not afterwards is, whether a process of becoming was or was not involved, so long as that which then was not, now is; (b) secondly, of anything capable of existing, 'capable' being defined with reference either to truth or to facility; (c) thirdly, of anything to which the passage from not being to being belongs, whether already actual, if its existence is due to a past process of becoming, or not yet actual but only possible.
+The uses of the words 'destructible' and 'indestructible' are similar.
+'Destructible' is applied (a) to that which formerly was and afterwards either is not or might not be, whether a period of being destroyed and changed intervenes or not; and (b) sometimes we apply the word to that which a process of destruction may cause not to be; and also (c) in a third sense, to that which is easily destructible, to the 'easily destroyed', so to speak.
+Of the indestructible the same account holds good.
+It is either (a) that which now is and now is not, without any process of destruction, like contact, which without being destroyed afterwards is not, though formerly it was; or (b) that which is but might not be, or which will at some time not be, though it now is.
+For you exist now and so does the contact; yet both are destructible, because a time will come when it will not be true of you that you exist, nor of these things that they are in contact.
+Thirdly (c) in its most proper use, it is that which is, but is incapable of any destruction such that the thing which now is later ceases to be or might cease to be; or again, that which has not yet been destroyed, but in the future may cease to be.
+For indestructible is also used of that which is destroyed with difficulty.</p>
+<p>This being so, we must ask what we mean by 'possible' and 'impossible'.
+For in its most proper use the predicate 'indestructible' is given because it is impossible that the thing should be destroyed, i.e.
+exist at one time and not at another.
+And 'ungenerated' also involves impossibility when used for that which cannot be generated, in such fashion that, while formerly it was not, later it is.
+An instance is a commensurable diagonal.
+Now when we speak of a power to move or to lift weights, we refer always to the maximum.
+We speak, for instance, of a power to lift a hundred talents or walk a hundred stades-though a power to effect the maximum is also a power to effect any part of the maximum-since we feel obliged in defining the power to give the limit or maximum.
+A thing, then, which is within it.
+If, for example, a man can lift a hundred talents, he can also lift two, and if he can walk a hundred stades, he can also walk two.
+But the power is of the maximum, and a thing said, with reference to its maximum, to be incapable of so much is also incapable of any greater amount.
+It is, for instance, clear that a person who cannot walk a thousand stades will also be unable to walk a thousand and one.
+This point need not trouble us, for we may take it as settled that what is, in the strict sense, possible is determined by a limiting maximum.
+Now perhaps the objection might be raised that there is no necessity in this, since he who sees a stade need not see the smaller measures contained in it, while, on the contrary, he who can see a dot or hear a small sound will perceive what is greater.
+This, however, does not touch our argument.
+The maximum may be determined either in the power or in its object.
+The application of this is plain.
+Superior sight is sight of the smaller body, but superior speed is that of the greater body.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../Book1/Part10.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../Book1/Part12.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../Book1/Part10.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../Book1/Part12.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>

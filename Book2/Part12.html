@@ -1,0 +1,235 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Part 12 - On the Heavens</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../Introduction.html">Introduction</a></li><li class="chapter-item expanded "><a href="../Book1.html"><strong aria-hidden="true">1.</strong> Book 1</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book1/Part1.html"><strong aria-hidden="true">1.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book1/Part2.html"><strong aria-hidden="true">1.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book1/Part3.html"><strong aria-hidden="true">1.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book1/Part4.html"><strong aria-hidden="true">1.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book1/Part5.html"><strong aria-hidden="true">1.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book1/Part6.html"><strong aria-hidden="true">1.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book1/Part7.html"><strong aria-hidden="true">1.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book1/Part8.html"><strong aria-hidden="true">1.8.</strong> Part 8</a></li><li class="chapter-item expanded "><a href="../Book1/Part9.html"><strong aria-hidden="true">1.9.</strong> Part 9</a></li><li class="chapter-item expanded "><a href="../Book1/Part10.html"><strong aria-hidden="true">1.10.</strong> Part 10</a></li><li class="chapter-item expanded "><a href="../Book1/Part11.html"><strong aria-hidden="true">1.11.</strong> Part 11</a></li><li class="chapter-item expanded "><a href="../Book1/Part12.html"><strong aria-hidden="true">1.12.</strong> Part 12</a></li></ol></li><li class="chapter-item expanded "><a href="../Book2.html"><strong aria-hidden="true">2.</strong> Book 2</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book2/Part1.html"><strong aria-hidden="true">2.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book2/Part2.html"><strong aria-hidden="true">2.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book2/Part3.html"><strong aria-hidden="true">2.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book2/Part4.html"><strong aria-hidden="true">2.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book2/Part5.html"><strong aria-hidden="true">2.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book2/Part6.html"><strong aria-hidden="true">2.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book2/Part7.html"><strong aria-hidden="true">2.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book2/Part8.html"><strong aria-hidden="true">2.8.</strong> Part 8</a></li><li class="chapter-item expanded "><a href="../Book2/Part9.html"><strong aria-hidden="true">2.9.</strong> Part 9</a></li><li class="chapter-item expanded "><a href="../Book2/Part10.html"><strong aria-hidden="true">2.10.</strong> Part 10</a></li><li class="chapter-item expanded "><a href="../Book2/Part11.html"><strong aria-hidden="true">2.11.</strong> Part 11</a></li><li class="chapter-item expanded "><a href="../Book2/Part12.html" class="active"><strong aria-hidden="true">2.12.</strong> Part 12</a></li><li class="chapter-item expanded "><a href="../Book2/Part13.html"><strong aria-hidden="true">2.13.</strong> Part 13</a></li><li class="chapter-item expanded "><a href="../Book2/Part14.html"><strong aria-hidden="true">2.14.</strong> Part 14</a></li></ol></li><li class="chapter-item expanded "><a href="../Book3.html"><strong aria-hidden="true">3.</strong> Book 3</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book3/Part1.html"><strong aria-hidden="true">3.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book3/Part2.html"><strong aria-hidden="true">3.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book3/Part3.html"><strong aria-hidden="true">3.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book3/Part4.html"><strong aria-hidden="true">3.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book3/Part5.html"><strong aria-hidden="true">3.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book3/Part6.html"><strong aria-hidden="true">3.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book3/Part7.html"><strong aria-hidden="true">3.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book3/Part8.html"><strong aria-hidden="true">3.8.</strong> Part 8</a></li></ol></li><li class="chapter-item expanded "><a href="../Book4.html"><strong aria-hidden="true">4.</strong> Book 4</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book4/Part1.html"><strong aria-hidden="true">4.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book4/Part2.html"><strong aria-hidden="true">4.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book4/Part3.html"><strong aria-hidden="true">4.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book4/Part4.html"><strong aria-hidden="true">4.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book4/Part5.html"><strong aria-hidden="true">4.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book4/Part6.html"><strong aria-hidden="true">4.6.</strong> Part 6</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">On the Heavens</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="part-12"><a class="header" href="#part-12">Part 12</a></h2>
+<p>There are two difficulties, which may very reasonably here be raised, of which we must now attempt to state the probable solution: for we regard the zeal of one whose thirst after philosophy leads him to accept even slight indications where it is very difficult to see one's way, as a proof rather of modesty than of overconfidence.</p>
+<p>Of many such problems one of the strangest is the problem why we find the greatest number of movements in the intermediate bodies, and not, rather, in each successive body a variety of movement proportionate to its distance from the primary motion.
+For we should expect, since the primary body shows one motion only, that the body which is nearest to it should move with the fewest movements, say two, and the one next after that with three, or some similar arrangement.
+But the opposite is the case.
+The movements of the sun and moon are fewer than those of some of the planets.
+Yet these planets are farther from the centre and thus nearer to the primary body than they, as observation has itself revealed.
+For we have seen the moon, half-full, pass beneath the planet Mars, which vanished on its shadow side and came forth by the bright and shining part.
+Similar accounts of other stars are given by the Egyptians and Babylonians, whose observations have been kept for very many years past, and from whom much of our evidence about particular stars is derived.
+A second difficulty which may with equal justice be raised is this.
+Why is it that the primary motion includes such a multitude of stars that their whole array seems to defy counting, while of the other stars each one is separated off, and in no case do we find two or more attached to the same motion?</p>
+<p>On these questions, I say, it is well that we should seek to increase our understanding, though we have but little to go upon, and are placed at so great a distance from the facts in question.
+Nevertheless there are certain principles on which if we base our consideration we shall not find this difficulty by any means insoluble.
+We may object that we have been thinking of the stars as mere bodies, and as units with a serial order indeed but entirely inanimate; but should rather conceive them as enjoying life and action.
+On this view the facts cease to appear surprising.
+For it is natural that the best-conditioned of all things should have its good without action, that which is nearest to it should achieve it by little and simple action, and that which is farther removed by a complexity of actions, just as with men's bodies one is in good condition without exercise at all, another after a short walk, while another requires running and wrestling and hard training, and there are yet others who however hard they worked themselves could never secure this good, but only some substitute for it.
+To succeed often or in many things is difficult.
+For instance, to throw ten thousand Coan throws with the dice would be impossible, but to throw one or two is comparatively easy.
+In action, again, when A has to be done to get B, B to get C, and C to get D, one step or two present little difficulty, but as the series extends the difficulty grows.
+We must, then, think of the action of the lower stars as similar to that of animals and plants.
+For on our earth it is man that has the greatest variety of actions-for there are many goods that man can secure; hence his actions are various and directed to ends beyond them-while the perfectly conditioned has no need of action, since it is itself the end, and action always requires two terms, end and means.
+The lower animals have less variety of action than man; and plants perhaps have little action and of one kind only.
+For either they have but one attainable good (as indeed man has), or, if several, each contributes directly to their ultimate good.
+One thing then has and enjoys the ultimate good, other things attain to it, one immediately by few steps, another by many, while yet another does not even attempt to secure it but is satisfied to reach a point not far removed from that consummation.
+Thus, taking health as the end, there will be one thing that always possesses health, others that attain it, one by reducing flesh, another by running and thus reducing flesh, another by taking steps to enable himself to run, thus further increasing the number of movements, while another cannot attain health itself, but only running or reduction of flesh, so that one or other of these is for such a being the end.
+For while it is clearly best for any being to attain the real end, yet, if that cannot be, the nearer it is to the best the better will be its state.
+It is for this reason that the earth moves not at all and the bodies near to it with few movements.
+For they do not attain the final end, but only come as near to it as their share in the divine principle permits.
+But the first heaven finds it immediately with a single movement, and the bodies intermediate between the first and last heavens attain it indeed, but at the cost of a multiplicity of movement.</p>
+<p>As to the difficulty that into the one primary motion is crowded a vast multitude of stars, while of the other stars each has been separately given special movements of its own, there is in the first place this reason for regarding the arrangement as a natural one.
+In thinking of the life and moving principle of the several heavens one must regard the first as far superior to the others.
+Such a superiority would be reasonable.
+For this single first motion has to move many of the divine bodies, while the numerous other motions move only one each, since each single planet moves with a variety of motions.
+Thus, then, nature makes matters equal and establishes a certain order, giving to the single motion many bodies and to the single body many motions.
+And there is a second reason why the other motions have each only one body, in that each of them except the last, i.e.
+that which contains the one star, is really moving many bodies.
+For this last sphere moves with many others, to which it is fixed, each sphere being actually a body; so that its movement will be a joint product.
+Each sphere, in fact, has its particular natural motion, to which the general movement is, as it were, added.
+But the force of any limited body is only adequate to moving a limited body.</p>
+<p>The characteristics of the stars which move with a circular motion, in respect of substance and shape, movement and order, have now been sufficiently explained.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../Book2/Part11.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../Book2/Part13.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../Book2/Part11.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../Book2/Part13.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>

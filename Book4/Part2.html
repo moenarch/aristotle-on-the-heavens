@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Part 2 - On the Heavens</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../Introduction.html">Introduction</a></li><li class="chapter-item expanded "><a href="../Book1.html"><strong aria-hidden="true">1.</strong> Book 1</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book1/Part1.html"><strong aria-hidden="true">1.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book1/Part2.html"><strong aria-hidden="true">1.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book1/Part3.html"><strong aria-hidden="true">1.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book1/Part4.html"><strong aria-hidden="true">1.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book1/Part5.html"><strong aria-hidden="true">1.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book1/Part6.html"><strong aria-hidden="true">1.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book1/Part7.html"><strong aria-hidden="true">1.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book1/Part8.html"><strong aria-hidden="true">1.8.</strong> Part 8</a></li><li class="chapter-item expanded "><a href="../Book1/Part9.html"><strong aria-hidden="true">1.9.</strong> Part 9</a></li><li class="chapter-item expanded "><a href="../Book1/Part10.html"><strong aria-hidden="true">1.10.</strong> Part 10</a></li><li class="chapter-item expanded "><a href="../Book1/Part11.html"><strong aria-hidden="true">1.11.</strong> Part 11</a></li><li class="chapter-item expanded "><a href="../Book1/Part12.html"><strong aria-hidden="true">1.12.</strong> Part 12</a></li></ol></li><li class="chapter-item expanded "><a href="../Book2.html"><strong aria-hidden="true">2.</strong> Book 2</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book2/Part1.html"><strong aria-hidden="true">2.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book2/Part2.html"><strong aria-hidden="true">2.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book2/Part3.html"><strong aria-hidden="true">2.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book2/Part4.html"><strong aria-hidden="true">2.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book2/Part5.html"><strong aria-hidden="true">2.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book2/Part6.html"><strong aria-hidden="true">2.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book2/Part7.html"><strong aria-hidden="true">2.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book2/Part8.html"><strong aria-hidden="true">2.8.</strong> Part 8</a></li><li class="chapter-item expanded "><a href="../Book2/Part9.html"><strong aria-hidden="true">2.9.</strong> Part 9</a></li><li class="chapter-item expanded "><a href="../Book2/Part10.html"><strong aria-hidden="true">2.10.</strong> Part 10</a></li><li class="chapter-item expanded "><a href="../Book2/Part11.html"><strong aria-hidden="true">2.11.</strong> Part 11</a></li><li class="chapter-item expanded "><a href="../Book2/Part12.html"><strong aria-hidden="true">2.12.</strong> Part 12</a></li><li class="chapter-item expanded "><a href="../Book2/Part13.html"><strong aria-hidden="true">2.13.</strong> Part 13</a></li><li class="chapter-item expanded "><a href="../Book2/Part14.html"><strong aria-hidden="true">2.14.</strong> Part 14</a></li></ol></li><li class="chapter-item expanded "><a href="../Book3.html"><strong aria-hidden="true">3.</strong> Book 3</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book3/Part1.html"><strong aria-hidden="true">3.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book3/Part2.html"><strong aria-hidden="true">3.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book3/Part3.html"><strong aria-hidden="true">3.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book3/Part4.html"><strong aria-hidden="true">3.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book3/Part5.html"><strong aria-hidden="true">3.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book3/Part6.html"><strong aria-hidden="true">3.6.</strong> Part 6</a></li><li class="chapter-item expanded "><a href="../Book3/Part7.html"><strong aria-hidden="true">3.7.</strong> Part 7</a></li><li class="chapter-item expanded "><a href="../Book3/Part8.html"><strong aria-hidden="true">3.8.</strong> Part 8</a></li></ol></li><li class="chapter-item expanded "><a href="../Book4.html"><strong aria-hidden="true">4.</strong> Book 4</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../Book4/Part1.html"><strong aria-hidden="true">4.1.</strong> Part 1</a></li><li class="chapter-item expanded "><a href="../Book4/Part2.html" class="active"><strong aria-hidden="true">4.2.</strong> Part 2</a></li><li class="chapter-item expanded "><a href="../Book4/Part3.html"><strong aria-hidden="true">4.3.</strong> Part 3</a></li><li class="chapter-item expanded "><a href="../Book4/Part4.html"><strong aria-hidden="true">4.4.</strong> Part 4</a></li><li class="chapter-item expanded "><a href="../Book4/Part5.html"><strong aria-hidden="true">4.5.</strong> Part 5</a></li><li class="chapter-item expanded "><a href="../Book4/Part6.html"><strong aria-hidden="true">4.6.</strong> Part 6</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">On the Heavens</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="part-2"><a class="header" href="#part-2">Part 2</a></h2>
+<p>Those of our predecessors who have entered upon this inquiry have for the most part spoken of light and heavy things only in the sense in which one of two things both endowed with weight is said to be the lighter.
+And this treatment they consider a sufficient analysis also of the notions of absolute heaviness, to which their account does not apply.
+This, however, will become clearer as we advance.
+One use of the terms 'lighter' and 'heavier' is that which is set forth in writing in the Timaeus, that the body which is composed of the greater number of identical parts is relatively heavy, while that which is composed of a smaller number is relatively light.
+As a larger quantity of lead or of bronze is heavier than a smaller-and this holds good of all homogeneous masses, the superior weight always depending upon a numerical superiority of equal parts-in precisely the same way, they assert, lead is heavier than wood.
+For all bodies, in spite of the general opinion to the contrary, are composed of identical parts and of a single material.
+But this analysis says nothing of the absolutely heavy and light.
+The facts are that fire is always light and moves upward, while earth and all earthy things move downwards or towards the centre.
+It cannot then be the fewness of the triangles (of which, in their view, all these bodies are composed) which disposes fire to move upward.
+If it were, the greater the quantity of fire the slower it would move, owing to the increase of weight due to the increased number of triangles.
+But the palpable fact, on the contrary, is that the greater the quantity, the lighter the mass is and the quicker its upward movement: and, similarly, in the reverse movement from above downward, the small mass will move quicker and the large slower.
+Further, since to be lighter is to have fewer of these homogeneous parts and to be heavier is to have more, and air, water, and fire are composed of the same triangles, the only difference being in the number of such parts, which must therefore explain any distinction of relatively light and heavy between these bodies, it follows that there must be a certain quantum of air which is heavier than water.
+But the facts are directly opposed to this.
+The larger the quantity of air the more readily it moves upward, and any portion of air without exception will rise up out of the water.</p>
+<p>So much for one view of the distinction between light and heavy.
+To others the analysis seems insufficient; and their views on the subject, though they belong to an older generation than ours, have an air of novelty.
+It is apparent that there are bodies which, when smaller in bulk than others, yet exceed them in weight.
+It is therefore obviously insufficient to say that bodies of equal weight are composed of an equal number of primary parts: for that would give equality of bulk.
+Those who maintain that the primary or atomic parts, of which bodies endowed with weight are composed, are planes, cannot so speak without absurdity; but those who regard them as solids are in a better position to assert that of such bodies the larger is the heavier.
+But since in composite bodies the weight obviously does not correspond in this way to the bulk, the lesser bulk being often superior in weight (as, for instance, if one be wool and the other bronze), there are some who think and say that the cause is to be found elsewhere.
+The void, they say, which is imprisoned in bodies, lightens them and sometimes makes the larger body the lighter.
+The reason is that there is more void.
+And this would also account for the fact that a body composed of a number of solid parts equal to, or even smaller than, that of another is sometimes larger in bulk than it.
+In short, generally and in every case a body is relatively light when it contains a relatively large amount of void.
+This is the way they put it themselves, but their account requires an addition.
+Relative lightness must depend not only on an excess of void, but also an a defect of solid: for if the ratio of solid to void exceeds a certain proportion, the relative lightness will disappear.
+Thus fire, they say, is the lightest of things just for this reason that it has the most void.
+But it would follow that a large mass of gold, as containing more void than a small mass of fire, is lighter than it, unless it also contains many times as much solid.
+The addition is therefore necessary.</p>
+<p>Of those who deny the existence of a void some, like Anaxagoras and Empedocles, have not tried to analyse the notions of light and heavy at all; and those who, while still denying the existence of a void, have attempted this, have failed to explain why there are bodies which are absolutely heavy and light, or in other words why some move upward and others downward.
+The fact, again, that the body of greater bulk is sometimes lighter than smaller bodies is one which they have passed over in silence, and what they have said gives no obvious suggestion for reconciling their views with the observed facts.</p>
+<p>But those who attribute the lightness of fire to its containing so much void are necessarily involved in practically the same difficulties.
+For though fire be supposed to contain less solid than any other body, as well as more void, yet there will be a certain quantum of fire in which the amount of solid or plenum is in excess of the solids contained in some small quantity of earth.
+They may reply that there is an excess of void also.
+But the question is, how will they discriminate the absolutely heavy?
+Presumably, either by its excess of solid or by its defect of void.
+On the former view there could be an amount of earth so small as to contain less solid than a large mass of fire.
+And similarly, if the distinction rests on the amount of void, there will be a body, lighter than the absolutely light, which nevertheless moves downward as constantly as the other moves upward.
+But that cannot be so, since the absolutely light is always lighter than bodies which have weight and move downward, while, on the other hand, that which is lighter need not be light, because in common speech we distinguish a lighter and a heavier (viz.
+water and earth) among bodies endowed with weight.
+Again, the suggestion of a certain ratio between the void and the solid in a body is no more equal to solving the problem before us.
+The manner of speaking will issue in a similar impossibility.
+For any two portions of fire, small or great, will exhibit the same ratio of solid to void, but the upward movement of the greater is quicker than that of the less, just as the downward movement of a mass of gold or lead, or of any other body endowed with weight, is quicker in proportion to its size.
+This, however, should not be the case if the ratio is the ground of distinction between heavy things and light.
+There is also an absurdity in attributing the upward movement of bodies to a void which does not itself move.
+If, however, it is the nature of a void to move upward and of a plenum to move downward, and therefore each causes a like movement in other things, there was no need to raise the question why composite bodies are some light and some heavy; they had only to explain why these two things are themselves light and heavy respectively, and to give, further, the reason why the plenum and the void are not eternally separated.
+It is also unreasonable to imagine a place for the void, as if the void were not itself a kind of place.
+But if the void is to move, it must have a place out of which and into which the change carries it.
+Also what is the cause of its movement?
+Not, surely, its voidness: for it is not the void only which is moved, but also the solid.</p>
+<p>Similar difficulties are involved in all other methods of distinction, whether they account for the relative lightness and heaviness of bodies by distinctions of size, or proceed on any other principle, so long as they attribute to each the same matter, or even if they recognize more than one matter, so long as that means only a pair of contraries.
+If there is a single matter, as with those who compose things of triangles, nothing can be absolutely heavy or light: and if there is one matter and its contrary-the void, for instance, and the plenum-no reason can be given for the relative lightness and heaviness of the bodies intermediate between the absolutely light and heavy when compared either with one another or with these themselves.
+The view which bases the distinction upon differences of size is more like a mere fiction than those previously mentioned, but, in that it is able to make distinctions between the four elements, it is in a stronger position for meeting the foregoing difficulties.
+Since, however, it imagines that these bodies which differ in size are all made of one substance, it implies, equally with the view that there is but one matter, that there is nothing absolutely light and nothing which moves upward (except as being passed by other things or forced up by them); and since a multitude of small atoms are heavier than a few large ones, it will follow that much air or fire is heavier than a little water or earth, which is impossible.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../Book4/Part1.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../Book4/Part3.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../Book4/Part1.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../Book4/Part3.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>
